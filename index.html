@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+ <title> Game </title> 
+ <link rel="stylesheet" href="game.css">  
+ <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+<center>
+    <div id= "main" >
+<div id="border1" >
+  <p id= "tic">TIC TAC TOE</p>
+  <div id="inner1">
+   <form id="form"  >   
+       <p class="heading">LOGIN LET'S PLAY!!</p>
+   USERNAME:   <input type="text" placeholder="Username" id="uname" >
+   <br>
+   <br>
+   PASSWORD: <input type="password" placeholder="Password"  id="pass">
+   <br><br>
+   REGISTER NOW!<br><input id="reg" type="submit" value="REGISTER"  onclick="registerpage()">
+   <br><br>
+  <input id="log" type="submit" value="LOGIN"  onclick="playerpage()" >
+</form>
+</div>
+</div>
+
+
+<div id="border2" >
+    <p id= "tic">TIC TAC TOE</p>
+  <form id="form2" onsubmit="adduser()">   
+        <p id="heading2">REGISTER  LET'S PLAY!</p>
+    USERNAME:   <input type="text" placeholder="Username" id="runame"  required>
+    <br>
+    <br>
+    PASSWORD: <input type="password" placeholder="Password"  id="rpass" required>
+    <br>
+    <br>
+    <input type="submit" value="REGISTER"  id="reg-login-js">
+ </form>
+  </div>
+
+<div id="border3" >
+    <p id= "tic">TIC TAC TOE</p>
+  <form id="form2" onsubmit="letsplay()" >   
+        <p id="heading2">GET READY PLAYERS!</p>
+    PLAYER 1: &nbsp;<input type="text" placeholder="player 1" id="p1"  required>
+    <br>
+    <br>
+    PLAYER 2: &nbsp; <input type="text" placeholder="player 2"  id="p2" required>
+    <br>
+    <br>
+    <input type="submit" value="PLAY!!"  id="playbutton">
+ </form>
+  </div>
+
+<div id="finalgame">
+<h2 id="game-status"></h2>
+<p id= "t">TIC TAC TOE</p>
+        <div class="maincls" id="gameid">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <button id="restart">Restart Game</button>
+</div>
+</div>
+</center>
+<script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  #main
+  {
+  background-image: url("backedit.jpg");
+  height:750px; 
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:-30px;
+  }
+
+#tic{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    
+}
+#inner1
+{
+border: 1p solid black;
+border-radius: 10px;
+height: 305px;
+margin: 270px 100px;
+
+}
+.heading
+{ margin-top: -20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    font-style:italic;
+    color:white;
+}
+#form
+{
+padding: 14px 20px;
+color: white;
+font-size: 26px;
+font-family: 'Orbitron', sans-serif;
+}
+input[type=text],input[type="password"]
+{
+padding: 4px 6px;
+color:black;
+font-size: 26px;
+font-family: 'Orbitron', sans-serif;
+}
+#reg,#log
+ {
+   
+    font-family: 'Orbitron', sans-serif;
+    border-radius:25px;
+    cursor: pointer;
+    font-size:26px;
+     background-image:linear-gradient(to bottom, RGB(208, 63, 142), RGB(22, 75, 177));
+    
+  }
+  
+#form2
+{
+    margin-top: 200px;
+padding: 14px 20px;
+color: white;
+font-size: 26px;
+font-family: 'Orbitron', sans-serif;
+}
+#heading2
+{ 
+    margin-top:100px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 34px;
+    font-style:italic;
+    color:white;
+}
+#reg-login-js,#playbutton
+ {
+   
+    font-family: 'Orbitron', sans-serif;
+    border-radius:25px;
+    cursor: pointer;
+    font-size:26px;
+     background-image:linear-gradient(to bottom, RGB(10, 74, 30), RGB(20, 195, 9));
+    
+  }
+
+
+.maincls {
+    padding-top: 220px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+   color:black;
+
+}
+.cell
+{   
+    height: 100px;
+    width: 100px;
+    background-image:linear-gradient(to bottom, RGB(10, 74, 30), RGB(20, 195, 9));
+    border:1px solid black;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ font-size: 80px;
+
+
+}
+.cell:hover 
+{
+background: chartreuse;
+}
+#restart{
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    font-size:26px;
+    background-image:linear-gradient(to bottom, RGB(208, 63, 142), RGB(22, 75, 177));
+    border: 1px solid black ;
+    padding: 4px 6px;
+    border-radius: 25px;
+} 
+#restart:hover
+{
+padding:10px 8px;
+background-color: chartreuse;
+}
+
+#game-status
+{
+    color:chartreuse;
+    padding-top: 300px;
+    margin-right: 1000px;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
+    
+}
+#t{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    margin-top: -370px;
+    
+    }
