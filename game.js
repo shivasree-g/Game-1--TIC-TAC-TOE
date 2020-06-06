@@ -32,6 +32,13 @@ first.remove();
 main.appendChild(final);
 finalpage(); 
 }
+function registerpage()
+{
+    first.remove();
+    player.remove();
+    final.remove();
+    main.appendChild(register);
+}
 function openLogin()
 {
 register.remove();
